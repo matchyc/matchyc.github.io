@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - matchyc
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - matchyc/mysterann
+  - matchyc/vector-search-papers
+  - matchyc/RoarGraph
+  - matchyc/tiny-container
+  - milvus-io/knowhere
