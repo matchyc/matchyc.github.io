@@ -7,7 +7,7 @@ subtitle:
 
 profile:
   align: left
-  image: #prof_pic.jpg
+  image: meng-hk-bay.jpg #prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Pursuing impactful works</p>
