@@ -20,7 +20,11 @@ social: true # includes social icons at the bottom of the page
 My name is Meng Chen, and I am a postgraduate student in computer science at Fudan University, working under the guidance of [Kai Zhang](https://kay21s.github.io/) in the [DASLab](https://daslab.fudan.edu.cn/main.htm), led by [X. Sean Wang](https://daslab.fudan.edu.cn/61/83/c26852a287107/page.htm). I earned my Bachelor's degree in Data Science and Big Data Technologies from Beijing University of Posts and Telecommunications (BUPT), where I was honored with the National Scholarship (rank-1) during my third year. My research journey also began during my third year as an undergraduate under the mentorship of [Ting Bai](https://tbbaby.github.io/baiting_index.html), [Jingyu Wang](https://jericwang.github.io/), whose guidance I value greatly, personally.
 
 
-Currently, I am a research intern at Microsoft Research Asia, mentored by [Baotong Lu](https://baotonglu.github.io/). I am actively seeking a PhD position for Fall 2025.
+Currently, I am a research intern at Microsoft Research Asia, mentored by [Baotong Lu](https://baotonglu.github.io/).
+
+Focusing on fast inference for LLMs, the property of sparsity and also large-scale vector search.
+
+I am actively seeking a PhD position for 2025 Fall or very suitable job position.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
