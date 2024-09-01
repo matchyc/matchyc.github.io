@@ -318,11 +318,11 @@
     <div class="clearfix">
 <p>My name is Meng Chen (陈萌), and I am a postgraduate student in computer science at Fudan University, advised by <a href="https://kay21s.github.io/" rel="external nofollow noopener" target="_blank">Kai Zhang</a> in the <a href="https://daslab.fudan.edu.cn/main.htm" rel="external nofollow noopener" target="_blank">DASLab</a>, led by <a href="https://daslab.fudan.edu.cn/61/83/c26852a287107/page.htm" rel="external nofollow noopener" target="_blank">X. Sean Wang</a>. I earned my Bachelor’s degree in Data Science and Big Data Technologies from Beijing University of Posts and Telecommunications (BUPT), where I was honored with the National Scholarship (rank-1) during my third year. My research journey also began during my third year as an undergraduate under the mentorship of <a href="https://tbbaby.github.io/baiting_index.html" rel="external nofollow noopener" target="_blank">Ting Bai</a>, <a href="https://jericwang.github.io/" rel="external nofollow noopener" target="_blank">Jingyu Wang</a>, whose guidance I value greatly, personally.</p>
 
-<p>Currently, I am a research intern at Microsoft Research Asia, mentored by <a href="https://baotonglu.github.io/" rel="external nofollow noopener" target="_blank">Baotong Lu</a>.</p>
+<p>Currently, I am a research intern at Microsoft Research Asia, mentored by <a href="https://baotonglu.github.io/" rel="external nofollow noopener" target="_blank">Baotong Lu</a>. I worked with <a href="https://www.microsoft.com/en-us/research/people/qiazh/" rel="external nofollow noopener" target="_blank">Qianxi Zhang</a>, <a href="https://www.microsoft.com/en-us/research/people/cheqi/" rel="external nofollow noopener" target="_blank">Qi Chen</a> in Beijing and also talented FTE in Shanghai.</p>
 
 <p>Focusing on fast inference for LLMs, the property of sparsity and also large-scale vector search.</p>
 
-<p>I am actively seeking a PhD position for 2025 Fall or very suitable job position.</p>
+<p>I am actively seeking a PhD position in Fall 2025.</p>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
@@ -458,7 +458,100 @@ Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan c
         <a href="/publications/" style="color: inherit">selected publications</a>
       </h2>
       <div class="publications">
-  <ol class="bibliography"></ol>
+  <ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.14778/3681954.3681959" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">RoarGraph: A Projected Bipartite Graph for Efficient Cross-Modal Approximate Nearest Neighbor Search</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Meng
+            Chen, Kai
+            Zhang, Zhenying
+            He, and
+        <span class="more-authors" title="click to view 2 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '2 more authors' ? 'Yinan Jing, X. Sean Wang' : '2 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">2 more authors</span>
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Proc. VLDB Endow.</em>,  Aug 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Approximate Nearest Neighbor Search (ANNS) is a fundamental and critical component in many applications, including recommendation systems and large language model-based applications. With the advancement of multimodal neural models, which transform data from different modalities into a shared high-dimensional space as feature vectors, cross-modal ANNS aims to use the data vector from one modality (e.g., texts) as the query to retrieve the most similar items from another (e.g., images or videos). However, there is an inherent distribution gap between embeddings from different modalities, and cross-modal queries become Out-of-Distribution (OOD) to the base data. Consequently, state-of-the-art ANNS approaches suffer poor performance for OOD workloads.In this paper, we quantitatively analyze the properties of the OOD workloads to gain an understanding of their ANNS efficiency. Unlike single-modal workloads, we reveal OOD queries spatially deviate from base data, and the k-nearest neighbors of an OOD query are distant from each other in the embedding space. The property breaks the assumptions of existing ANNS approaches and mismatches their design for efficient search. With the insights from the OOD workloads, we propose pRojected bipartite Graph (RoarGraph), an efficient ANNS graph index that is built under the guidance of query distribution. Extensive experiments show that RoarGraph significantly outperforms state-of-the-art approaches on modern cross-modal datasets, achieving up to 3.56\texttimes faster search speed at a 90% recall rate for OOD queries.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li></ol>
 </div>
 
     
