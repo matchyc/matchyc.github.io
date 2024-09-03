@@ -24,7 +24,7 @@ Currently, I am a research intern at Microsoft Research Asia, mentored by [Baoto
 
 Focusing on fast inference for LLMs, the property of sparsity and also large-scale vector search.
 
-I am actively seeking a PhD position in Fall 2025.
+I am actively seeking a PhD position in Fall 2025 or very suitable job position.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
