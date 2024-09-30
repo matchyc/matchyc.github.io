@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 2024-5-15 16:11:00-0400
+date: 2024-9-17 16:11:00-0400
 inline: true
 related_posts: false
 ---
 
-A paper was accepted by VLDB 2024! "RoarGraph: A Projected Bipartite Graph for Efficient Cross-Modal Approximate Nearest Neighbor Search". [Paper](https://arxiv.org/abs/2408.08933), [Code](https://github.com/matchyc/RoarGraph). 
+**RetrievalAttention** is disclosed by MSR Asia, which is a training-free method accelerates attention with sublinear time, leveraging vector retrieval on CPU to reduce latency, GPU memory cost. Inference 128K LLM with 16GB GPU! [Paper](https://huggingface.co/papers/2409.10516). 
 
 
 <!-- ---
