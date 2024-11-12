@@ -22,9 +22,9 @@ My name is Meng Chen (陈萌), and I am a postgraduate student in computer scien
 
 Currently, I am a research intern at Microsoft Research Asia, mentored by [Baotong Lu](https://baotonglu.github.io/). I worked with [Qianxi Zhang](https://www.microsoft.com/en-us/research/people/qiazh/), [Qi Chen](https://www.microsoft.com/en-us/research/people/cheqi/) in Beijing and also talented FTE in Shanghai.
 
-Focusing on fast inference for LLMs, the property of sparsity and also large-scale vector search.
+Focusing on systems and algorithms for LLMs, the property of sparsity and also large-scale vector search.
 
-I am actively seeking a PhD position in Fall 2025 or very suitable job position.
+I am actively seeking a PhD position in Fall 2025.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
