@@ -1,9 +1,10 @@
----
+<!-- ---
 layout: post
 date: 2024-9-17 16:11:00-0400
-inline: true
+inline: false
 related_posts: false
----
+
+--- -->
 
 **RetrievalAttention** is disclosed by MSR Asia, which is a training-free method accelerates attention with sublinear time, leveraging vector retrieval on CPU to reduce latency, GPU memory cost. Inference 128K LLM with 16GB GPU! [Paper](https://huggingface.co/papers/2409.10516). 
 
