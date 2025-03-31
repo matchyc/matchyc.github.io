@@ -20,9 +20,10 @@ social: true # includes social icons at the bottom of the page
 My name is Meng Chen (陈萌), and I am a postgraduate student in computer science at Fudan University, advised by [Kai Zhang](https://kay21s.github.io/) in the [DASLab](https://daslab.fudan.edu.cn/main.htm), led by [X. Sean Wang](https://daslab.fudan.edu.cn/61/83/c26852a287107/page.htm). I earned my Bachelor's degree in Data Science and Big Data Technologies from Beijing University of Posts and Telecommunications (BUPT), where I was honored with the National Scholarship (rank-1) during my third year. My research journey also began during my third year as an undergraduate under the mentorship of [Ting Bai](https://tbbaby.github.io/baiting_index.html), [Jingyu Wang](https://jericwang.github.io/), whose guidance I value greatly, personally.
 
 
-Currently, I am a research intern at Microsoft Research Asia, mentored by [Baotong Lu](https://baotonglu.github.io/). I worked with [Qianxi Zhang](https://www.microsoft.com/en-us/research/people/qiazh/), [Qi Chen](https://www.microsoft.com/en-us/research/people/cheqi/) in Beijing and also talented FTE in Shanghai.
+<!-- Currently, I am a research intern at Microsoft Research Asia, mentored by [Baotong Lu](https://baotonglu.github.io/). I worked with [Qianxi Zhang](https://www.microsoft.com/en-us/research/people/qiazh/), [Qi Chen](https://www.microsoft.com/en-us/research/people/cheqi/) in Beijing and also talented FTE in Shanghai. -->
 
-Focusing on systems and algorithms for LLMs, the property of sparsity and also large-scale vector search.
+I was a research intern at Microsoft Research Asia, mentored by [Baotong Lu](https://baotonglu.github.io/). I worked with [Qianxi Zhang](https://www.microsoft.com/en-us/research/people/qiazh/), [Qi Chen](https://www.microsoft.com/en-us/research/people/cheqi/) in Beijing and [Huiqiang Jiang](https://hqjiang.com/) in Shanghai. During that time, I focused on systems and algorithms for LLMs, the property of sparsity and also large-scale vector search. Best time of my research journey.
+
 
 <!-- I am actively seeking a PhD position in Fall 2025. -->
 
