@@ -1,0 +1,54 @@
+<div class="awards">  
+  {% if site.data.resume.awards and site.data.resume.awards.size > 0 %}  
+    <div class="table-responsive">  
+      <table class="table table-sm table-borderless">  
+        {% for award in site.data.resume.awards %}  
+          <tr>  
+            <th scope="row" style="width: 20%">  
+              {% if award.date %}  
+                {{ award.date | date: '%Y' }}  
+              {% endif %}  
+            </th>  
+            <td>  
+              <div class="award-title">{{ award.title }}</div>  
+              {% if award.awarder %}  
+                <div class="award-awarder"><em>{{ award.awarder }}</em></div>  
+              {% endif %}  
+              {% if award.summary %}  
+                <div class="award-summary">{{ award.summary }}</div>  
+              {% endif %}  
+            </td>  
+          </tr>  
+        {% endfor %}  
+      </table>  
+    </div>  
+  {% elsif site.data.cv %}  
+    {% for entry in site.data.cv %}  
+      {% if entry.title == 'Honors and Awards' or entry.title == 'Awards' %}  
+        <div class="table-responsive">  
+          <table class="table table-sm table-borderless">  
+            {% for item in entry.contents %}  
+              <tr>  
+                <th scope="row" style="width: 20%">  
+                  {% if item.year %}{{ item.year }}{% endif %}  
+                </th>  
+                <td>  
+                  <div class="award-title">{{ item.title }}</div>  
+                  {% if item.institution %}  
+                    <div class="award-awarder"><em>{{ item.institution }}</em></div>  
+                  {% endif %}  
+                  {% if item.description %}  
+                    <div class="award-summary">{{ item.description }}</div>  
+                  {% endif %}  
+                </td>  
+              </tr>  
+            {% endfor %}  
+          </table>  
+        </div>  
+        {% break %}  
+      {% endif %}  
+    {% endfor %}  
+  {% else %}  
+    <p>No awards to display...</p>  
+  {% endif %}  
+</div>
