@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-"RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval," has been accepted for an oral (spotlight) presentation at the NeurIPS 2024 ENLSP Workshop. <u><font color="red">Best Paper</font></u>. [Paper](https://huggingface.co/papers/2409.10516).
+"RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval," has been accepted for an oral (spotlight) presentation at the NeurIPS 2024 ENLSP Workshop. <u><font color="red">Best Paper</font></u>. [Paper](https://huggingface.co/papers/2409.10516). This paper is accepted at NeurIPS 2025 Main Track in September 2025.
 
 
 <!-- ---<span style="color:red">some **This is Red Bold.** text</span>

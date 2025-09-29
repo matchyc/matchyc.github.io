@@ -21,7 +21,9 @@ selected= {true}
 @article{liu2024retrievalattention,
   title={RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval},
   author={Liu, Di and Chen, Meng and Lu, Baotong and Jiang, Huiqiang and Han, Zhenhua and Zhang, Qianxi and Chen, Qi and Zhang, Chengruidong and Ding, Bailu and Zhang, Kai and others},
-  journal={arXiv preprint arXiv:2409.10516},
+  journal={arXiv preprint arXiv:2409.10516; accepted by NeurIPS 2024 ENLSP Workshop; to appear in NeurIPS 2025 Main Track},
+  abstract={Transformer-based Large Language Models (LLMs) have become increasingly important. However, scaling LLMs to longer contexts incurs slow inference speed and high GPU memory consumption for caching key-value (KV) vectors. This paper presents RetrievalAttention, a training-free approach to both accelerate the decoding phase and reduce GPU memory consumption by pre-building KV vector indexes for fixed contexts and maintaining them in CPU memory for efficient retrieval. Unlike conventional KV cache methods, RetrievalAttention integrate approximate nearest neighbor search (ANNS) indexes into attention computation. We observe that off-the-shelf ANNS techniques often fail due to the out-of-distribution (OOD) nature of query and key vectors in attention mechanisms. RetrievalAttention overcomes this with an attention-aware vector index. Our evaluation shows RetrievalAttention achieves near full attention accuracy while accessing only 1-3% of the data, significantly reducing inference costs. Remarkably, RetrievalAttention enables LLMs with 8B parameters to handle 128K tokens on a single NVIDIA RTX4090 (24GB), achieving a decoding speed of 0.107 seconds per token.},
+  url={https://huggingface.co/papers/2409.10516},
   year={2024},
   award={Best Paper in ENLSP},
   selected= {true}
@@ -29,8 +31,8 @@ selected= {true}
 
 @article{simhadri2024results,
   title={Results of the Big ANN: NeurIPS'23 competition},
-  author={Simhadri, Harsha Vardhan and Aum{\"u}ller, Martin and Ingber, Amir and Douze, Matthijs and Williams, George and Manohar, Magdalen Dobson and Baranchuk, Dmitry and Liberty, Edo and Liu, Frank and Landrum, Ben, Landrum, Mazin Karjikar, Laxman Dhulipala, Meng Chen, Yue Chen and Others},
-  journal={arXiv preprint arXiv:2409.17424},
+  journal={arXiv preprint arXiv:2409.17424; to appear in NeurIPS 2025 Dataset & Benchmark Track},
   year={2024},
-  selected= {false}
+  url={https://arxiv.org/abs/2409.17424},
+  selected= {true}
 }
